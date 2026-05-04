@@ -20,8 +20,8 @@ int multiplicar(const int a, const int b) {
 
 /* ── esPar ────────────────────────────────────────────────────────────────── */
 
-int esPar(const int n) {
-    return (n % 2) == 0; /* version main */
+int esPar(int n) {
+    return (n & 1) == 0;
 }
 
 int dividir(int a, int b) {
